@@ -13,3 +13,18 @@ In dealing with Windows server administration, it is important to understand how
 
 1 HR (access every group)
 
+# Active Directory
+It is important to secure the Operating System on any device and my project aims to display the severity
+of a vulnerable machine and the capabilities a user with malicious intent. Once we properly secure the
+OS we then must focus on implementing antivirus software to act as a barrier and screen traffic to and
+from the host.
+
+# Security 
+1Things that will prevent or slow down gaining access to a machine from a hackers are:
+-Automatic software patches
+-Strong Firewall Policies
+-Strong Password Policies
+-Strong Audit Policies
+-Uninstall unsafe p2p software
+
+
