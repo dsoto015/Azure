@@ -20,7 +20,7 @@ OS we then must focus on implementing antivirus software to act as a barrier and
 from the host.
 
 # Security 
-1Things that will prevent or slow down gaining access to a machine from a hackers are:
+Things that will prevent or slow down gaining access to a machine from a hackers are:
 
 -Automatic software patches
 
