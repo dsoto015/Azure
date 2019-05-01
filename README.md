@@ -21,10 +21,15 @@ from the host.
 
 # Security 
 1Things that will prevent or slow down gaining access to a machine from a hackers are:
+
 -Automatic software patches
+
 -Strong Firewall Policies
+
 -Strong Password Policies
+
 -Strong Audit Policies
+
 -Uninstall unsafe p2p software
 
 
