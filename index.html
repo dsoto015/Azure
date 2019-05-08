@@ -3,33 +3,47 @@
 <head>
   <title>Microsoft Azure Implementation</title>
 </head>
-<body>
-  <div id="app">
-    <img src="https://images.app.goo.gl/74qitQmXxtge4fyb9" alt="Azure logo">
-    <h1> Microsoft Azure </h1>
-    <p> In dealing with Windows server administration, it is important to understand how to use to use services like Microsoft Azure Active directory-or even the Active directory that comes with Windows-to monitor your servers. Azure however, is a cloud computing service created for building, testing, deploying, apps and services. Active directory is developed for domain networks and servers running Active directory are called Domain controllers and my project will be focused on using Azure Active directory-which i'm completely foreign to-to add users, give permissions, manage resource groups, and give them proper privileges based on a hypothetical company I will set up. </p>
-    
-    <ul>
-      <li>
-        To learn more about Vue, visit
-        <a :href="docsURL" target="_blank">
-          \{{ humanizeURL(docsURL) }}
-        </a>
-      </li>
-      <li>
-        For live help with simple questions, check out
-        <a :href="discordURL" target="_blank">
-          the Discord chat
-        </a>
-      </li>
-      <li>
-        For more complex questions, post to
-        <a :href="forumURL" target="_blank">
-          the forum
-        </a>
-      </li>
-    </ul>
-  </div>
 
-</body>
-</html>
+<style>
+.content {
+  max-width: 1000px;
+  margin: auto;
+}
+</style>
+
+<div class="content"
+	<body>
+    	<img src="https://i1.wp.com/www.msclouditpropodcast.com/wp-content/uploads/2019/01/Azure.png?fit=1140%2C1140&ssl=1" alt="Azure logo" width="300" height="275">
+    	<div id="main">
+    	<h1> Microsoft Azure </h1>
+    		<p> In dealing with Windows server administration, it is important to understand how to use to use services like Microsoft Azure Active directory-or even the Active directory that comes with Windows-to monitor your servers. Azure however, is a cloud computing service created for building, testing, deploying, apps and services. Active directory is developed for domain networks and servers running Active directory are called Domain controllers and my project will be focused on using Azure Active directory-which i'm completely foreign to-to add users, give permissions, manage resource groups, and give them proper privileges based on a hypothetical company I will set up. </p>
+    		
+     	<h2> Dom Inc. </h2>
+    		<p> 10 users </p>
+    			<ul>
+    				<li>2 IT (1 sysadmin and 1 helpdesk) </li>
+    				<li>3 Acct (Access to Sales files) </li>
+					<li>4 Sales (only access own group) </li>
+					<li>1 HR (access every group) </li>
+				</ul>
+				
+		<h3> Update: May 7, 2019 </h3>
+		<h2> Deploying Microsoft Server </h2>
+			<p> When starting your network you need to first deploy a server which will act as your domain controller.
+			I have chosen to use Azure virtual machine to do so and to do this we need to create a VM in the Azure portal.
+			</p>
+			<ol>
+				<li> Choose Create a resource in the upper left-hand corner of the Azure portal. </li>
+				<li> In the New page, under Popular, select Windows Server 2016 Datacenter. </li>
+				<li> In the Basics tab, under Project details, make sure the correct subscription is selected and then choose to Create new resource group. Type myResourceGroup for the name </li>
+				<li> Under Instance details, type myVM for the Virtual machine name and choose East US for your Location. Leave the other defaults. </li>
+				<li> Under Administrator account, provide a username, such as azureuser and a password. The password must be at least 12 characters long and meet the defined complexity requirements. </li>
+				<li> Under Inbound port rules, choose Allow selected ports and then select RDP (3389) and HTTP from the drop-down. </li>
+				<li> Create .</li>
+
+			</ol>
+			<ol> 
+	</div>
+	
+</div>
+	</body>
